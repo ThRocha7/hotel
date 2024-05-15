@@ -85,7 +85,7 @@ main {
 }
 
 .img-hoteis {
-    background-image: url(./imagem-hotel.jpg);
+    background-image: url(../assests/imagem-hotel.jpg);
     background-repeat: no-repeat;;
     height: 500px;
 }
