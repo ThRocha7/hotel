@@ -52,32 +52,14 @@ nav a {
     font-size: 1.1rem;
 }
 
-.container-btns{
-    display: flex;
-    justify-content: space-between;
-    width: 220px;
+
+.container-login img{
+    width: 35px;
+    height: 35px;
+    
 }
 
-.login {
-    background-color: #ffff;
-    width: 100px;
-    border: 1px solid var(--verde-escuro);
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.212);
-}
-
-.login {
-    font: 600 1rem "Montserrat", sans-serif;
-    color: var(--verde-princ);
-}
-
-.login:hover {
-    cursor: pointer;
-    background-color: var(--verde-princ);
-    color: #ffff;
-    transition: .3s ease-in-out;   
-}
+.cont
 
 .container-banner {
     position: relative;
@@ -91,7 +73,7 @@ nav a {
 
 .container-banner .container-text-banner{
     position: absolute;
-    top: 150px;
+    top: 200px;
     left: 50px;
     color: #ffff;
     width: 600px;
@@ -102,7 +84,7 @@ nav a {
     max-height: 100px;
     background-color: rgb(54, 139, 121);
     position: absolute;
-    top: 400px;
+    top: 460px;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -159,7 +141,6 @@ nav a {
     cursor: default;
 }
 
-
 .city-options {
     display: flex;
     flex-direction: row;
@@ -170,4 +151,91 @@ nav a {
 .divisoria {
     border-bottom: 1px solid grey;
     border-radius: 1px;
+}
+
+.container-conteudo {
+    margin: 80px 10px 0 10px;
+}
+
+.content-conteudo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container-conteudo h2 {
+    margin: 0 0 20px 100px;
+    color: var(--verde-escuro)
+}
+
+.text-conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.images-conteudo {
+    width: 600px;
+}
+
+.images-conteudo img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#images-capitolio-2, 
+#images-capitolio-3 {
+    display: none;
+}
+
+.text-conteudo h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 10px;
+
+}
+
+.text-conteudo ul {
+    list-style-type: '\02714';
+    list-style-position: inside;
+    padding-left: 50px;
+}
+
+.text-conteudo li {
+    padding: 10px;
+}
+
+.text-conteudo li > span {
+    padding-left: 10px;
+}
+
+.text-conteudo p {
+    text-indent: 1rem;
+    padding: 10px;
+}
+
+.text-conteudo button {
+    margin: 15px auto;
+    width: 250px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: var(--verde-princ);
+}
+
+.text-conteudo button:hover {
+    background-color: var(--verde-escuro);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.text-conteudo button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.container-cadastro {
+    margin: auto;
 }

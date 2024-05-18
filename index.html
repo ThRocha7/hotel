@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina inicial</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Css_Inicial/style.css">
+    <title>Hotel</title>
 </head>
 <body>
     <header>
@@ -21,23 +21,16 @@
                     <a href="#" class="links">Home</a>
                 </div>
                 <div class="container-links">
-                    <a href="./capitolio-pag/capitolio.html" class="links">Capitolio</a>
+                    <a href="./capitolio-pag/capitolio.html" class="links">Capitólio</a>
                 </div>
                 <div class="container-links">
                     <a href="./sul_pag/sul.html" class="links">Gramado</a>
                 </div>
             </div>
 
-            <div class="container-btns">
+            <div class="container-login">
                 <a href="./login_pag/login.html">
-                <button class="login">
-                    Registrar
-                </button>
-                </a>
-                <a href="./login_pag/login.html" class="content-login">
-                <button class="login">
-                    Logar
-                </button>
+                    <img src="./assests/user.png" alt="Login">
                 </a>
             </div>
         </nav>
@@ -45,13 +38,15 @@
     <main>
         <div class="container-banner">
             <div class="container-img">
-                <img src="./assests/2123.jpg" alt="">    
+                <img src="./assests/Canyons.png" alt="">    
             </div>
+
             <div class="container-text-banner">
                 <h1>
                     Venha conhecer nossos hotéis, aqui suas férias ficam completas!
                 </h1>
             </div>        
+
             <div class="container-filter">
                 <div class="content-filter">
                     <div class="container-city">
@@ -61,6 +56,7 @@
                             <img src="./assests/chevron-top-icon.svg" id="arrow-top-icon">
                         </span>
                     </div>
+
                     <div class="content-city">
                             <h3>
                                 Cidades disponíveis:
@@ -68,9 +64,10 @@
                         <div class="city-options">
                             <img src="./assests/maps-pin-black-icon.svg" alt="Capitolio">
                             <p>
-                                Capitolio, MG
+                                Capitólio, MG
                             </p>
                         </div>
+
                         <span class="divisoria"></span>
                         <div class="city-options">
                             <img src="./assests/maps-pin-black-icon.svg" alt="Sul">
@@ -79,8 +76,8 @@
                             </p>
                         </div>
                     </div>
-                
             </div>
+
             <div class="content-filter">
                 <p>
                     Data do Chek-in:
@@ -93,40 +90,95 @@
             </div>
         </div>
         
-        <div class="content-capitolio">
-            <div class="images-capitolio">
-                
+        <div class="container-conteudo">
+            <h2>
+                CAPITÓLIO
+            </h2>
+            <div class="content-conteudo">
+                <div class="images-conteudo">
+                    <img src="./assests/hotel-capitolio-1.webp" alt="Imagem da frente do hotel" id="images-capitolio-1">
+                    <img src="./assests/hotel-capitolio-2.webp" alt="Outra imagem do nosso hotel" id="images-capitolio-2">
+                    <img src="./assests/Canyons.png" alt="Ponto turístico de Capitólio" id="images-capitolio-3">
+                </div>
+                <div class="text-conteudo">
+                    <h3>
+                        Escolhendo nosso Hotel em Capitólio, você terá:
+                    </h3>
+                    <ul>
+                        <li>
+                            <span>Café da manhã e almoço &#x1F60B</span>;
+                        </li>
+                        <li>
+                            <span>Wi-fi grátis &#x1F60E</span>;
+                        </li>
+                        <li>
+                            <span>Uma ótima localidade para turísmo &#x1F60C</span>;
+                        </li>
+                        <li>
+                            <span>E muito mais! &#x1FAE3</span>;
+                        </li>
+                    </ul>
+                    <p>
+                        Você ainda poderá conhecer a gastronomia e as cachoeiras da região!
+                    </p>
+                    <h3>
+                        Ficou interessado? Clique aqui e saiba reserve seu quarto!
+                    </h3>
+                    <button>
+                        <a href="./capitolio-pag/capitolio.html">FAÇA SUA RESERVA!</a>
+                    </button>
+                </div>
             </div>
-            <div class="content-capitolio">
-                <h2>
-                    Capitólio
-                </h2>
-                <p>
-                    Escolhendo nosso Hotel em Capitólio, você terá:
-                </p>
-                <ul>
-                    <li>
-                        Café da manhã e almoço &#x1F60B
-                    </li>
-                    <li>
-                        Wifi grátis &#x1F60E
-                    </li>
-                    <li>
-                        Uma ótima localidade para turísmo &#x1F60C
-                    </li>
-                    <li>
-                        E muito mais! &#x1FAE3
-                    </li>
-                </ul>
-                <p>
-                    Além disso, você poderá conhecer a gastronomia e as cachoeiras da região!
-                </p>
-                <p>
-                    Ficou interessado? Clique aqui e saiba reserve seu quarto!
-                </p>
-                <button>
-                    <a href="./capitolio-pag/capitolio.html">FAÇA SUA RESERVA!</a>
-                </button>
+        </div>
+
+        <div class="container-cadastro">
+            <h2>
+                Quer receber as promoções? Cadastre seu melhor Email aqui!
+            </h2>
+            <div class="cadatro">
+                <p>Seu melhor Email:</p>
+                <input type="email" name="" id="">
+            </div>
+        </div>
+
+        <div class="container-conteudo">
+            <h2>
+                GRAMADO
+            </h2>
+            <div class="content-conteudo">
+                <div class="images-conteudo">
+                    <img src="./assests/hotel-capitolio-1.webp" alt="Imagem da frente do hotel" id="images-capitolio-1">
+                    <img src="./assests/hotel-capitolio-2.webp" alt="Outra imagem do nosso hotel" id="images-capitolio-2">
+                    <img src="./assests/Canyons.png" alt="Ponto turístico de Capitólio" id="images-capitolio-3">
+                </div>
+                <div class="text-conteudo">
+                    <h3>
+                        Escolhendo nosso Hotel em Capitólio, você terá:
+                    </h3>
+                    <ul>
+                        <li>
+                            <span>Café da manhã e almoço &#x1F60B</span>;
+                        </li>
+                        <li>
+                            <span>Wi-fi grátis &#x1F60E</span>;
+                        </li>
+                        <li>
+                            <span>Uma ótima localidade para turísmo &#x1F60C</span>;
+                        </li>
+                        <li>
+                            <span>E muito mais! &#x1FAE3</span>;
+                        </li>
+                    </ul>
+                    <p>
+                        Você ainda poderá conhecer a gastronomia e as cachoeiras da região!
+                    </p>
+                    <h3>
+                        Ficou interessado? Clique aqui e saiba reserve seu quarto!
+                    </h3>
+                    <button>
+                        <a href="./capitolio-pag/capitolio.html">FAÇA SUA RESERVA!</a>
+                    </button>
+                </div>
             </div>
         </div>
     </main>
