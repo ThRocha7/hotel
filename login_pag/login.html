@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../login_pag/Css_login/style_login.css">
-    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css_login/style_login.css">
+    <title>Tela de Login e Cadastro</title>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
+    <div class="floating-text">
+       Quase lá!<br>
+        Continue o login para obter <br>as melhores reservas pelo menor preço
+    </div>
+    <div class="container">
+        <div class="card" id="login-card">
+            <label for="login-username">Usuário</label>
+            <input type="text" id="login-username" placeholder="Nome de Usuário" required>
+            <label for="login-password">Senha</label>
+            <input type="password" id="login-password" placeholder="Senha" required>
+            <label>
+                <input type="checkbox"> Lembre minha senha
+            </label>
+            <button onclick="login()">Login</button>
+            <div class="toggle" onclick="toggleForm()">Não tem uma conta? Cadastre-se</div>
+        </div>
+        <div class="card" id="register-card" style="display: none;">
+            <label for="register-username">Usuário</label>
+            <input type="text" id="register-username" placeholder="Nome de Usuário" required>
+            <label for="register-password">Senha</label>
+            <input type="password" id="register-password" placeholder="Senha" required>
+            <button onclick="register()">Cadastrar</button>
+            <div class="toggle" onclick="toggleForm()">Já tem uma conta? Faça login</div>
+        </div>
+    </div>
+
+    <script src="./scripts/login.js"></script>
 </body>
 </html>
