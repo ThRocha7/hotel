@@ -170,7 +170,10 @@ nav .section-links a:hover::after {
 }
 
 .container-conteudo {
-    margin: 100px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
 }
 
 .content-conteudo {
@@ -180,7 +183,7 @@ nav .section-links a:hover::after {
 }
 
 .container-conteudo h2 {
-    margin: 0 0 20px 100px;
+    margin: 50px 0;
     color: var(--verde-escuro);
 }
 
