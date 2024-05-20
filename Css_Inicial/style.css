@@ -18,6 +18,7 @@ body {
     min-height: 100vh;
 }
 
+/* Estilização Header */
 
 nav {
     background-color: var(--verde-princ);
@@ -75,6 +76,12 @@ nav .section-links a:hover::after {
     height: auto;
 }
 
+/* Fim da estilização Header */
+
+/* Estilização main */
+
+/* Estilização Banner */
+
 .container-banner {
     height: 500px;
 }
@@ -87,12 +94,29 @@ nav .section-links a:hover::after {
 
 .container-banner .container-text-banner{
     position: absolute;
-    top: 200px;
-    left: 50px;
+    top: 230px;
+    left: 200px;
     color: #ffff;
     width: 600px;
 }
 
+/* Fim estilização Banner */
+
+/* Estilização do conteúdo do main */
+.container-promocao {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-promocao {
+    width: 800px;
+    
+}
+
+.content-promocao img {
+    width: 750px;
+    height: auto;
+}
 
 .container-conteudo {
     display: flex;
@@ -179,6 +203,16 @@ nav .section-links a:hover::after {
     font-weight: 600;
 }
 
+#images-gramado-2, 
+#images-gramado-3 {
+    display: none;
+}
+
+/* Fim estilização conteúdo main */
+/* Fim estilização do main */
+
+/* Estilização footer */
+
 .container-cadastro {
     display: flex; 
     flex-direction: column;
@@ -214,9 +248,4 @@ nav .section-links a:hover::after {
     background-color: var(--verde-escuro);
     cursor: pointer;
     transition: .3s ease-in-out;
-}
-
-#images-gramado-2, 
-#images-gramado-3 {
-    display: none;
 }
