@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    body {
+        min-height: 100vh;
+        width: 100%;
+      }
+
+      header {
+        width: 100%;
+        background-color: #40356F;
+        padding-bottom: 5px;
+        margin-bottom: 8px;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.363);
+      }
+
+      p, p-hotel{
+        font-size: 1.1em;
+        line-height: 1.8em;
+      }
+
+      h3 {
+        text-align: center;
+        color: #645FCE;
+      }
+
+      .topo {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        text-align: center;
+        color: #fff;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+      .topo img{
+        width: 200px; 
+        height: 200px;
+      }
+
+      .topo h1 {
+        font-size: 2rem;
+      }
+
+  .turismospontos.match-height-post:after,
+  .turismospontos.match-height-post:before {
+    display: none;
+  }
+  
+  
+  .turismospontos .turismo1-contain {
+    max-width: 1237px;
+    padding: 5 12px;
+    margin: auto;
+    display: flex;
+  }
+  
+  
+  .turismospontos .turismo1-contain .tile {
+    height: 390px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    margin-top: auto;
+  }
+  
+  
+  .turismospontos .turismo1-contain .tile.center {
+    min-height: 408px;
+    margin: 0 40px;
+  }
+  
+  
+  .turismospontos .turismo1-contain .tile .title {
+    position: absolute;
+    padding: 5px 12px;
+    font-size: 28px;
+    color: #A69992;
+    text-transform: uppercase;
+    background-color: #f4f9ffe5;
+    top: 88px;
+    left: 50%;
+    width: 90%;
+    text-align: center;
+    transform: translate(-50%);
+    font-weight: 500;
+  }
+  
+  .turismospontos .turismo1-contain .tile.center .title {
+    top: 50px;
+    padding: 5px 12px;
+    background-color: #dfdfdf;
+    color: #6d7976;
+  }
+
+  h2#pontoturistico {
+    text-align: center;
+    margin-top: 50px; /* Ajuste o valor conforme necessário */
+    padding-top: 20px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+
+}
+.imagem {
+    margin: 0 10px;
+    margin-top: 30px;
+}
+.imagem img {
+    width: 220px; /* ajuste o tamanho conforme necessário */
+    height: auto; /* mantém a proporção da imagem */
+}
+
+.txtpontos {
+    border: 1px solid rgba(105, 103, 103, 0.39);
+    border-radius: 4px;
+    padding: 10px;
+    height: 400px;
+}
+
+  footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #40356F;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer h3 {
+    color: white;
+    font-weight: bold;
+    
+  }
+
+  footer > div {
+    flex: 1;
+    margin-right: 20px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer > div#div-e-mail {
+  border-right: none;
+}
