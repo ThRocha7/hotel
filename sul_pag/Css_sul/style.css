@@ -115,7 +115,7 @@
     margin-top: 30px;
 }
 .imagem img {
-    width: 220px; /* ajuste o tamanho conforme necessário */
+    width: 300px; /* ajuste o tamanho conforme necessário */
     height: auto; /* mantém a proporção da imagem */
 }
 
@@ -124,6 +124,7 @@
     border-radius: 4px;
     padding: 10px;
     height: 400px;
+    width: 300px;
 }
 
   footer{
