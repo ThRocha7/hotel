@@ -6,7 +6,7 @@ body {
    justify-content: flex-end;
   align-items: center;
    height: 100vh;
-   background-image: url(../../assests/pexels-vision-plug-310264943-13739807.jpg); 
+   background-image: url(../../assests/pexels-galerieb-1209978.jpg); 
     background-size: cover;
   background-position: center;
 position: relative;
@@ -58,18 +58,18 @@ width: 90%;
 padding: 10px;
                 border: none;
 border-radius: 4px;
-background-color: #007bff;
+background-color:  rgb(54, 139, 121);
 color: white;
 font-weight: 600;
 cursor: pointer;
 transition: background-color 0.3s ease;
 }
 .card button:hover {
-background-color: #0056b3;
+background-color: #324D45;
 }
 .toggle {
 margin-top: 10px;
 text-align: center;
 cursor: pointer;
-color: #007bff;
+color:  rgb(54, 139, 121);
 }
