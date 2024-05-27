@@ -42,7 +42,7 @@ function login() {
 
     if (users[username] && users[username] === password) {
         alert('Login realizado com sucesso!');
-        window.location.href = "../../index.html";
+        history.back(-1)
     } else {
         alert('Nome de usuário ou senha incorretos.');
     }
