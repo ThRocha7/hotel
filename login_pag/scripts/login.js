@@ -31,8 +31,7 @@ function login() {
 
     if (users[username] && users[username] === password) {
         alert('Login realizado com sucesso!');
-        history.back(-1)
     } else {
         alert('Nome de usuário ou senha incorretos.');
-    }
+    }
 }
