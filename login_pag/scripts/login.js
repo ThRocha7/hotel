@@ -31,17 +31,6 @@ function login() {
 
     if (users[username] && users[username] === password) {
         alert('Login realizado com sucesso!');
-    } else {
-        alert('Nome de usuário ou senha incorretos.');
-    }
-}
-
-function login() {
-    const username = document.getElementById('login-username').value;
-    const password = document.getElementById('login-password').value;
-
-    if (users[username] && users[username] === password) {
-        alert('Login realizado com sucesso!');
         history.back(-1)
     } else {
         alert('Nome de usuário ou senha incorretos.');
