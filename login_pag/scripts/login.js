@@ -35,3 +35,15 @@ function login() {
         alert('Nome de usuário ou senha incorretos.');
     }
 }
+
+function login() {
+    const username = document.getElementById('login-username').value;
+    const password = document.getElementById('login-password').value;
+
+    if (users[username] && users[username] === password) {
+        alert('Login realizado com sucesso!');
+        window.location.href = "põe o site aqui, pra quando validar voltar pro site";
+    } else {
+        alert('Nome de usuário ou senha incorretos.');
+    }
+}
