@@ -7,8 +7,8 @@ Esse é um projeto da faculdade, desenvolvido por quatro pessoas:
 * [Leonardo Tomisaki](https://github.com/leonardotomisaki) (página de Campos);
 * Leonardo Caruzo (página de login).
 
-## Visão Geral:
+## Links:
 
-[Link do projeto pronto](https://throcha7.github.io/hotel/)
-
+* [Link do projeto pronto](https://throcha7.github.io/hotel/)
+* [Link do vídeo de aprensentação](https://www.youtube.com/watch?v=x5Vs0EUxl60)
 
